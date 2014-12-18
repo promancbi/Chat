@@ -4,7 +4,7 @@ import com.mx.uam.Vista.VistaPrincipal;
 
 public class App {
 	VistaPrincipal ventana;
-	/*Listo para usar*/
+
 	public static void main(String[] args) {
 	
 		App app = new App();
