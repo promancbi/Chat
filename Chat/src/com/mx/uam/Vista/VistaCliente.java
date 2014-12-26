@@ -1,12 +1,8 @@
 package com.mx.uam.Vista;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
 
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 
 import java.awt.Font;
@@ -14,14 +10,10 @@ import java.awt.Font;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
-import com.mx.uam.Gestor.GestorConexiones;
 import com.mx.uam.Thread.NCliente;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import java.io.IOException;
-import java.net.Socket;
-import java.net.UnknownHostException;
 
 import javax.swing.JTextArea;
 
@@ -30,6 +22,10 @@ import java.awt.event.KeyEvent;
 
 public class VistaCliente extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;

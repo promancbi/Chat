@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import javax.swing.JComponent;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 import com.mx.uam.Gestor.GestorConexiones;

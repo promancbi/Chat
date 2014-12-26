@@ -1,13 +1,12 @@
 package com.mx.uam.Thread;
 
-import java.io.DataInput;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import javax.swing.JFrame;
+
 import javax.swing.JOptionPane;
 
 import com.mx.uam.Vista.VistaCliente;

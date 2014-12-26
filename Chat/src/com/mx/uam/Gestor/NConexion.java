@@ -9,13 +9,11 @@ import javax.swing.JOptionPane;
 
 public class NConexion extends Thread{
 
-	private Socket socket = null;
 	private DataInputStream dis= null;
 	private DataOutputStream dos = null;
 	
 	
 	public NConexion(Socket socket) {
-		this.socket = socket;
 		try {
 			dis = new DataInputStream(socket.getInputStream());
 			dos = new DataOutputStream(socket.getOutputStream());
@@ -33,8 +31,6 @@ public class NConexion extends Thread{
 				GestorConexiones.getInstance().enviarM(mensaje);
 
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				//e.printStackTrace();
 			}
 			
 		}
